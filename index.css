@@ -1,0 +1,19 @@
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: grey;
+}
+/* #box { */
+/* background-color: red; */
+/* } */
+.game-box {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+}
+.table-game {
+  border: 1px solid black;
+}
+.table-row {
+  border-left: 1px solid black;
+}
